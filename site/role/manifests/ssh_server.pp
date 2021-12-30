@@ -1,4 +1,4 @@
 class role::ssh_server {
   include profile::base
-  include profile::ssh
+  include profile::ssh_server
   }
