@@ -3,4 +3,5 @@ class profile::agent_nodes {
   dockeragent::node {'web.puppet.vm':}
   dockeragent::node {'db.puppet.vm':}
   dockeragent::node {'ssh.puppet.vm':}
+  dockeragent::node {'minetest.puppet.vm':}
   }  
